@@ -15,3 +15,9 @@ variable "instance_ami" {
   type        = string
   default     = "ami-03a6eaae9938c858c"
 }
+
+variable "region" {
+  description = "Your current region"
+  type = string
+  default = "us-east-1"
+}
