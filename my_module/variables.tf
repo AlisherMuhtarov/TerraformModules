@@ -9,3 +9,9 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "instance_ami" {
+  description = "Type of ami to use"
+  type        = string
+  default     = "ami-03a6eaae9938c858c"
+}
